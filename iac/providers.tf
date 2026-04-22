@@ -10,3 +10,7 @@ terraform {
 provider "docker" {
   # Configuration options
 }
+provider "aws" {
+  profile = "Fernando1707"
+  
+}
